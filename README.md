@@ -1,5 +1,4 @@
-# GHG
-Data analysis and visualization of greenhouse gas emissions of parties of climate change convention
+## Data analysis and visualization of greenhouse gas emissions of parties of climate change convention
 
 The United Nations Framework Convention on Climate Change(UNFCC) aims to curb greenhouse gas (GHG) emissions and in this project, I aim to present the status of emissions from countries that are parties to this convention.
 
