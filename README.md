@@ -1,5 +1,11 @@
 ## Data analysis and visualization of greenhouse gas emissions of parties of climate change convention
 
-The United Nations Framework Convention on Climate Change(UNFCC) aims to curb greenhouse gas (GHG) emissions and in this project, I aim to present the status of emissions from countries that are parties to this convention.
+The United Nations Framework Convention on Climate Change (UNFCCC) is a crucial international treaty aimed at mitigating the effects of greenhouse gas emissions on the global climate. In this project, I have leveraged cutting-edge data wrangling techniques in R to analyze and present a comprehensive overview of emissions from countries that are parties to the UNFCCC.
 
-To curb the emissions, we need to have an idea of top emissions and emitters of these top emissions. To make this possible we will start with cleaning and classifying the data to suit our visualization needs, perform analysis on emissions, country wise and gas wise, visualize and make the visualizations be available on an easy to access user interface using the shiny app in R, which would enable easy access to people and hence provide better understanding of the emission trend.
+The initial state of the data presented several challenges, as it was limited to just four columns containing basic information on the serial number, country, year, and pollutant category. I have employed a range of advanced data-wrangling techniques to effectively transform this raw data into a form that is suitable for further analysis.
+
+I have leveraged the powerful dplyr package, utilizing functions such as mutate, recode, pivoting, grouping, and subset selection, to manipulate and reorganize the data. The mutate function, in particular, has been used in conjunction with recode to rename the category variables according to the gas name, thereby simplifying the pollutant categories.
+
+In addition to these data wrangling techniques, I have also performed a thorough data cleaning process to eliminate any "NA" values that may have crept in during the conversion of the data type. The gsub function was used to remove any commas between numbers that could have caused issues with improperly formatted values.
+
+Finally, I have used the ggplot2 library to create stunning visualizations of the filtered data, providing key insights into the emissions trends of UNFCCC member countries. This sophisticated approach to data analysis has allowed me to present a clear and concise overview of the current state of emissions and will be an invaluable resource for decision-makers and stakeholders working towards the reduction of greenhouse gas emissions.
